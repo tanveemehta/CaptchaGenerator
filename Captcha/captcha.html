@@ -1,0 +1,14 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="captcha.css" />
+<script type="text/javascript" src="captcha.js"></script>  
+</head>  
+<body onload="Captcha();"> 
+   <center><div class="capt"> 
+   <h2 type="text" id="mainCaptcha"></h2>
+   <p><input type="button" id="refresh"  value="Refresh"onclick="Captcha();"/></p>            <input type="text" id="txtInput"/>    
+   <input id="Button1" type="button" value="Check" onclick="alert(ValidCaptcha());"/>
+   </div>
+   </center>
+</body>
+</html>
